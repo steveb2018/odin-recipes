@@ -1,0 +1,27 @@
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.heading {
+  text-align: center;
+  font-size: 42px;
+}
+
+#recipe-links li {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 30px;
+  color: #241662;
+}
+
+h3 {
+  font-size: 20px;
+  color: #126738;
+}
+
+p,
+li {
+  font-size: 18px;
+}
