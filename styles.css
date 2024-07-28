@@ -1,14 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 1px solid red;
+}
+
 body {
   font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.content {
+  width: 900px;
+  margin: 16px auto;
+  background-color: #c2d5f7;
 }
 
 .heading {
   text-align: center;
   font-size: 42px;
+  padding: 16px 0;
+}
+
+#recipe-links {
+  width: 900px;
+  padding: 16px;
+  list-style: none;
 }
 
 #recipe-links li {
-  font-size: 26px;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 10px;
+  background-color: antiquewhite;
+  display: inline-block;
+}
+
+#recipe-links li a {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  padding: 6px;
+  font-size: 16px;
 }
 
 h2 {
